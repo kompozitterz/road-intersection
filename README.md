@@ -20,9 +20,12 @@ You will create two roads which cross each other to create an intersection. Each
 
 Traffic entering the intersection will be able to select a route by:
 
+
     turning left
     turning right
     continuing on straight
+    
+    
 
                         North
                     |  ↓  |  ↑  |
@@ -45,6 +48,7 @@ East ---------------             --------------- West
                     |  ↓  |  ↑  |
                         South
 
+
 *2 Traffic lights*
 
 Traffic lights are signaling devices positioned at road intersections that follow a universal color code. We all know the normal colors for traffic lights, but for this exercise, your traffic lights will only have red and green.
@@ -57,12 +61,9 @@ The primary function of your traffic light system, is to avoid collisions betwee
 
 *3. Vehicles*
 
-```
-js
   ______
  /|_||_\`.__
 =`-(_)--(_)-'
-```
 
 The vehicles traveling through your capital city's new junction must follow these rules:
 
