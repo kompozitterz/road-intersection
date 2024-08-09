@@ -1,5 +1,5 @@
 extern crate sdl2;
-// use rand::Rng;
+use rand::Rng;
 use rand::seq::SliceRandom;
 use std::time::{Duration, Instant};
 use sdl2::rect::Rect;
@@ -11,7 +11,7 @@ pub fn main() {
     // Initialisation du contexte SDL2
     let sdl_context = sdl2::init().unwrap();
     let video_subsystem = sdl_context.video().unwrap();
-    
+
     // Création de la fenêtre SDL2
     let window = video_subsystem.window("rust-sdl2 demo", 1000, 1000)
         .position_centered()
